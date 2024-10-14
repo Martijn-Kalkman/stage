@@ -2,7 +2,7 @@
   <NuxtLink
     :to="nuxtlink"
     :class="[
-      'w-3/12 text-white text-center p-4 mx-8 -mt-20 rounded-2xl h-52',
+      'lg:w-3/12 w-full hidden lg:block text-white text-center p-4 lg:mx-8 lg:-mt-20 rounded-2xl h-52',
       active ? 'bg-gray-500' : 'bg-[#72A97B]',
     ]"
   >

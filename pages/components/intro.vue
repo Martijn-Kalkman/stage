@@ -5,47 +5,88 @@
     src="../../public/leaf.png"
   />
   <div class="h-[900px]">
-    <div class="container relative mx-auto">
+    <div class="lg:container relative mx-auto">
       <nav class="flex justify-between items-center p-4">
-        <NuxtLink to="/" class="text-2xl font-bold"
-          >Stage Martijn Kalkman</NuxtLink
-        >
-        <div class="flex space-x-4 text-lg">
-          <NuxtLink to="ontwikkelen" class="hover:underline"
-            >Ontwikkelen</NuxtLink
+        <!-- Logo / Brand -->
+        <NuxtLink to="/" class="text-2xl font-bold">
+          Stage Martijn Kalkman
+        </NuxtLink>
+
+        <!-- Hamburger Icon for Mobile Screens -->
+        <div class="lg:hidden">
+          <button
+            id="menu-toggle"
+            class="text-3xl focus:outline-none"
+            @click="menuOpen = !menuOpen"
           >
+            &#9776;
+            <!-- Hamburger Icon -->
+          </button>
+        </div>
+
+        <!-- Links - Hidden on Small Screens -->
+        <div class="hidden lg:flex space-x-4 text-lg">
+          <NuxtLink to="ontwikkelen" class="hover:underline">
+            Ontwikkelen
+          </NuxtLink>
           <NuxtLink to="ontwerpen" class="hover:underline">Ontwerpen</NuxtLink>
           <NuxtLink to="ondernemen" class="hover:underline"
             >Ondernemen</NuxtLink
           >
           <NuxtLink to="betrokken" class="hover:underline">Betrokken</NuxtLink>
         </div>
+
+        <!-- Mobile Menu - Visible on Small Screens -->
+        <div
+          class="absolute top-16 left-0 right-0 bg-white lg:hidden"
+          :class="{ hidden: !menuOpen }"
+        >
+          <div class="flex flex-col items-center space-y-4 p-4">
+            <NuxtLink to="ontwikkelen" class="hover:underline">
+              Ontwikkelen
+            </NuxtLink>
+            <NuxtLink to="ontwerpen" class="hover:underline"
+              >Ontwerpen</NuxtLink
+            >
+            <NuxtLink to="ondernemen" class="hover:underline"
+              >Ondernemen</NuxtLink
+            >
+            <NuxtLink to="betrokken" class="hover:underline"
+              >Betrokken</NuxtLink
+            >
+          </div>
+        </div>
       </nav>
     </div>
     <section class="z-50">
       <div
-        class="bg-[#343434] container mx-auto h-[40rem] rounded-2xl w-12/12 flex items-center"
+        class="bg-[#343434] mx-2 lg:mx-auto lg:container mx-auto h-[40rem] rounded-2xl w-12/12 flex items-center"
       >
-        <div class="flex flex-row text-white w-full">
-          <div class="w-6/12 my-auto mx-auto">
-            <h1 class="w-[30rem] mx-auto font-bold text-5xl">
+        <div class="flex lg:flex-row flex-col text-white w-full">
+          <div class="lg:w-6/12 my-auto mx-auto">
+            <h1
+              class="lg:w-[30rem] mx-auto font-bold text-4xl text-center lg:text-left lg:text-5xl"
+            >
               Stage bij LeafyLines
             </h1>
-            <p class="w-[30rem] mt-8 mx-auto">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-              nobis alias natus, corporis non numquam tempora dolore repellat,
-              aut asperiores eveniet sunt consequuntur amet commodi enim
-              delectus laborum voluptas iste.
+            <p class="lg:w-[30rem] px-2 lg:px-0 mt-8 mx-auto">
+              Bij LeafyLines maken we een professionele website die bij de klant
+              past. We zorgen ervoor dat alles goed geregeld is, van het ontwerp
+              tot de website. Bij Leafylines staan we klaar om te helpen bij
+              elke stap van het proces, voor professionele en responsive
+              websites.
             </p>
           </div>
 
-          <div class="w-6/12 flex items-center justify-center">
+          <div class="lg:w-6/12 px-2 lg:px-0 flex items-center justify-center">
             <img src="/leafylines1.png" class="max-w-full h-96" />
           </div>
         </div>
       </div>
 
-      <div class="flex container mx-auto px-20 flex-row">
+      <div
+        class="flex lg:flex-row flex-col lg:container mx-auto px-2 lg:px-20 flex-row"
+      >
         <Block
           title="Ontwikkelen"
           icon="custom:gear"
@@ -77,6 +118,9 @@
 
 <script setup>
 import Block from "./block.vue";
+import { ref } from "vue";
+
+const menuOpen = ref(false);
 
 const props = defineProps({
   activeBlock: {
