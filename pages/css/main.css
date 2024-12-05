@@ -2,15 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-color: #02041a;
+  @apply font-mono; /* Applying monospace font globally */
+}
 
 @layer base {
-    body {
-      @apply bg-[#75B5A4];
-    }
+  /* You can add more base customizations here */
+}
 
-
-  }
-
-  .router-link-active {
-    @apply font-bold;
-  }
+.router-link-active {
+  @apply font-bold font-mono; /* Applying monospace font to active links */
+}

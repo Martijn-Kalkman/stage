@@ -1,15 +1,14 @@
-<template>
-  <Header />
-  <Intro :active-block="2" />
-  <div class="container mx-auto bg-[#343434] text-white p-4 mt-12 rounded">
-    <h2 class="font-bold text-3xl">Conceptualiseren</h2>
-  </div>
+<script setup lang="ts">
+import Navbar from "./components/navbar.vue";
+</script>
 
-  <div class="container mx-auto bg-[#343434] text-white p-4 mt-12 rounded">
-    <h2 class="font-bold text-3xl">Ontwerpen en prototypen</h2>
+<template>
+  <Navbar />
+  <div class="sm:ml-64 text-xl text-gray-300">
+    <div class="mx-auto 2xl:w-6/12 p-4">
+      <div class="">
+        <h1 class="text-6xl font-bold text-center">Ontwerpen</h1>
+      </div>
+    </div>
   </div>
 </template>
-
-<script setup>
-import Intro from "./components/intro.vue";
-</script>
