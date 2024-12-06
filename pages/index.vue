@@ -4,6 +4,7 @@ import Navbar from "./components/navbar.vue";
 
 <template>
   <Navbar />
+
   <div class="sm:ml-64 text-xl text-gray-300">
     <div class="mx-auto 2xl:w-6/12 p-4">
       <div class="">

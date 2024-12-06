@@ -1,9 +1,31 @@
 <script setup lang="ts">
 import Navbar from "./components/navbar.vue";
+import OpenModal from "./components/openModal.vue";
 </script>
 
 <template>
   <Navbar />
+  <OpenModal>
+          <span class="text-xl text-white font-bold"
+            >- Technische kennis en analyse:
+          </span>
+          <p class="leading-relaxed pb-4 text-red-400 text-lg">
+            Ik ben flexibel genoeg om me snel de professionele werkwijze van het
+            stagebedrijf en gebruikte technieken eigen te maken. Ik kan
+            technische oplossingen bedenken voor praktische problemen die bij
+            deze werkwijze aansluiten.
+          </p>
+          <span class="text-xl text-white font-bold"
+            >- Implementeren, testen en opleveren:
+          </span>
+          <p class="leading-relaxed pb-4 text-red-400 text-lg">
+            Ik ben in staat iteratief te ontwikkelen waarbij analyse van een
+            iteratie tot verbeteringen leidt in de volgende iteratie. Hierbij
+            heb ik functionele testen opgezet, die vooraf door de klant of het
+            stagebedrijf zijn goedgekeurd, om de correcte werking te garanderen.
+            Het geheel lever ik op met het oog op doorontwikkeling.
+          </p>
+        </OpenModal>
   <div class="sm:ml-64 text-xl text-gray-300">
     <div class="mx-auto 2xl:w-6/12 p-4">
       <div class="">
