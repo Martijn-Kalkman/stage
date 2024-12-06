@@ -24,9 +24,9 @@ import OpenModal from "./components/openModal.vue";
     </p>
   </OpenModal>
   <div class="sm:ml-64 text-xl text-gray-300">
-    <div class="mx-auto 2xl:w-6/12 p-4">
+    <div class="mx-auto 2xl:w-6/12 p-4 mt-12">
       <div class="">
-        <h1 class="text-6xl font-bold text-center">Ondernemen</h1>
+        <h1 class="text-6xl font-bold text-white text-center">Ondernemen</h1>
       </div>
     </div>
   </div>

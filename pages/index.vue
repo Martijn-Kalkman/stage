@@ -6,9 +6,9 @@ import Navbar from "./components/navbar.vue";
   <Navbar />
 
   <div class="sm:ml-64 text-xl text-gray-300">
-    <div class="mx-auto 2xl:w-6/12 p-4">
+    <div class="mx-auto 2xl:w-6/12 p-4 mt-12">
       <div class="">
-        <h1 class="text-6xl font-bold text-center">Stage bij LeafyLines</h1>
+        <h1 class="text-6xl text-white mb-4 font-bold text-center">Stage bij LeafyLines</h1>
       </div>
       <h3 class="text-3xl mb-2 font-bold text-white">- Inleiding</h3>
       <p>
@@ -57,7 +57,7 @@ import Navbar from "./components/navbar.vue";
         <h3 class="text-3xl mb-2 mt-4 font-bold text-white">
           - De stageopdracht
         </h3>
-        <P>
+        <p>
           Tijdens mijn stage bij
           <span class="text-[#99DDCC] font-bold">LeafyLines</span> is mijn
           opdracht om professionele en responsive websites te maken die passen
@@ -66,7 +66,7 @@ import Navbar from "./components/navbar.vue";
           maken die er niet alleen goed uitzien, maar ook makkelijk te gebruiken
           zijn. Tijdens deze periode werk ik samen met mijn partner Calvin
           Hofman en werken wij samen om het bedrijf te laten groeien.
-        </P>
+        </p>
       </ul>
     </div>
   </div>

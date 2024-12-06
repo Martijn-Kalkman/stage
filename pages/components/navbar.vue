@@ -26,6 +26,9 @@
     </button>
 
     <!-- Sidebar -->
+    <div class="w-full bg-gray-800 text-white py-1 hidden md:block text-right pr-4">
+    <p>Stage verslag van Martijn Kalkman, 1058503</p>
+    </div>
     <aside
       id="default-sidebar"
       :class="sidebarClass"
@@ -216,7 +219,6 @@
           <li>
             <NuxtLink
               to="/conclusie"
-              href="#"
               class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
             >
               <svg
@@ -285,7 +287,7 @@
               <span class="ms-3">Onderzoeksverslag</span>
             </NuxtLink>
           </li>
-          <li>
+          <!-- <li>
             <button
               type="button"
               class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
@@ -351,7 +353,7 @@
                 >
               </li>
             </ul>
-          </li>
+          </li> -->
           <!-- Other sidebar items here (unchanged) -->
         </ul>
       </div>
@@ -395,5 +397,7 @@ export default {
 </script>
 
 <style scoped>
-/* Add custom styles if necessary */
+.router-link-active{
+  background-color: rgba(243, 244, 246, 0.1);
+}
 </style>
