@@ -1,6 +1,5 @@
 <template>
   <div>
-    <!-- Button to open/close the sidebar on mobile -->
     <button
       data-drawer-target="default-sidebar"
       data-drawer-toggle="default-sidebar"
@@ -25,7 +24,6 @@
       </svg>
     </button>
 
-    <!-- Sidebar -->
     <div class="w-full bg-gray-800 text-white py-1 hidden md:block text-right pr-4">
     <p>Stage verslag van Martijn Kalkman, 1058503</p>
     </div>
@@ -38,7 +36,6 @@
       <div
         class="h-full px-3 py-4 overflow-y-auto bg-slate-800 relative"
       >
-        <!-- Close button in the top left corner of the mobile sidebar, shown only on mobile -->
         <button
           @click="toggleSidebar"
           class="top-4 left-4 mb-2 p-2 text-white bg-gray-500 rounded-full hover:bg-gray-700 focus:outline-none sm:hidden"
@@ -60,7 +57,6 @@
           </svg>
         </button>
 
-        <!-- Sidebar content -->
         <ul class="space-y-2 font-medium">
           <li>
             <NuxtLink
@@ -128,7 +124,7 @@
           <li>
             <NuxtLink
               to="ondernemen"
-              class="flex items-center p-2 text-white rounded-lg hover:bg-gray-100 hover:bg-gray-700 group"
+              class="flex items-center p-2 text-white rounded-lg hover:bg-gray-700 group"
             >
               <svg
                 width="30"
