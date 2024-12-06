@@ -3,14 +3,13 @@
 @tailwind utilities;
 
 body {
-  background-color: #02041a;
-  @apply font-mono; /* Applying monospace font globally */
+  background-color: #1b1b24;
+  @apply font-mono;
 }
 
 @layer base {
-  /* You can add more base customizations here */
 }
 
 .router-link-active {
-  @apply font-bold font-mono; /* Applying monospace font to active links */
+  @apply font-bold font-mono;
 }
