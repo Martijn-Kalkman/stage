@@ -28,6 +28,12 @@ import OpenModal from "./components/openModal.vue";
       <div class="">
         <h1 class="text-6xl font-bold text-white text-center">Ondernemen</h1>
       </div>
+      <span class="text-3xl text-white font-bold">- Conceptualiseren: </span>
+      <h4 class="text-2xl mt-4 mb-4">- Terugblik</h4>
+      <h4 class="text-2xl mb-4">- Vooruitzicht</h4>
+      <span class="text-3xl text-white font-bold">- Conceptualiseren: </span>
+      <h4 class="text-2xl mt-4 mb-4">- Terugblik</h4>
+      <h4 class="text-2xl mb-4">- Projectmatig werken en communiceren</h4>
     </div>
   </div>
 </template>

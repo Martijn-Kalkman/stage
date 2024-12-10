@@ -26,6 +26,14 @@ import OpenModal from "./components/openModal.vue";
     <div class="mx-auto 2xl:w-6/12 p-4 mt-12">
       <div class="">
         <h1 class="text-6xl font-bold text-white text-center">Betrokken</h1>
+        <span class="text-3xl text-white font-bold">- Lerend vermogen: </span>
+        <h4 class="text-2xl mt-4 mb-4">- Terugblik</h4>
+        <h4 class="text-2xl mb-4">- Vooruitzicht</h4>
+        <span class="text-3xl text-white font-bold"
+          >- Maatschappelijke verantwoordelijkheid
+        </span>
+        <h4 class="text-2xl mt-4 mb-4">- Terugblik</h4>
+        <h4 class="text-2xl mb-4">- Projectmatig werken en communiceren</h4>
       </div>
     </div>
   </div>
