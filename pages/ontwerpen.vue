@@ -52,7 +52,7 @@ import OpenModal from "./components/openModal.vue";
           alt="Floating Image"
         />
         <p class="italic text-sm">
-          Figure 5: Website design met een kwast als achtergrond
+          Figuur 5: Website design met een kwast als achtergrond
         </p>
         <span class="font-bold">Crazy 8:</span>
         <p class="mt-4">
@@ -66,9 +66,11 @@ import OpenModal from "./components/openModal.vue";
         </p>
         <p class="mt-4">
           Aan het einde van dit proces heb ik een beter beeld van welk concept
-          het beste werkt voor de website. Dit idee werk ik daarna verder uit in
-          Figma, zodat ik een duidelijker wireframe kan maken. Via figma kan ik
-          de schetsen uitwerken en aan de klant laten zien.
+          het beste werkt voor de website. Tijdens dit proces let ik niet alleen
+          op de designs, maar ook op de gebruikers van het eindproduct, en de
+          manier waarop het gebruikt kan worden. Dit idee werk ik daarna verder
+          uit in Figma, zodat ik een duidelijker wireframe kan maken. Via figma
+          kan ik de schetsen uitwerken en aan de klant laten zien.
         </p>
         <p class="mt-4">
           De designs die ik maak voor klanten zijn altijd afgestemd op hun
@@ -129,9 +131,9 @@ import OpenModal from "./components/openModal.vue";
           van User stories. User stories voor de website van HI-LO(DJ)
         </p>
         <ul class="mt-4">
-          <li>- Als eigenaar wil ik events op de website kunnen zetten.</li>
+          <li>- Als eigenaar wil ik events op de website kunnen zetten</li>
           <li>
-            - Als eigenaar wil ik de laatste muziek laten zien op de website.
+            - Als eigenaar wil ik de laatste muziek laten zien op de website
           </li>
           <li>- Als eigenaar wil ik laten zien wat voor merch er te koop is</li>
           <li>- Als gebruiker wil ik muziek kunnen luister van de dj</li>

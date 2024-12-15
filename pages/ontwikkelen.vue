@@ -38,21 +38,27 @@ import OpenModal from "./components/openModal.vue";
           Voordat ik begin met het bouwen van websites voor klanten, hou ik me
           aan een vaste structuur. Zo plan ik altijd eerst een meeting met de
           klant om te bespreken wat de klant wil en wat ze van mij kunnen
-          verwachten. Daarna ga ik aan de slag met het maken van een design.
-          Zodra dit design is goedgekeurd, kies ik het juiste framework dat
-          aansluit bij de behoeften van de klant. Meestal gebruik ik het
-          framework NUXT. Dit doe ik omdat ik hiermee een betere SEO-score kan
-          halen voor de websites die ik bouw.
+          verwachten. Tijdens dit gesprek stel ik ook vragen om er achter te
+          komen wat de belangrijkste doelen van de klant zijn. Daarna ga ik aan
+          de slag met het maken van een design. Dit design probeer ik niet
+          alleen visueel goed te maken, maar zorg ik ook dat het functioneel is
+          en aansluit op de behoeften van de gebruikers. Zodra dit design is
+          goedgekeurd, kies ik het juiste framework dat aansluit bij de
+          behoeften van de klant. Meestal gebruik ik het framework NUXT. Dit doe
+          ik omdat ik hiermee een betere SEO-score kan halen voor de websites
+          die ik bouw.
         </p>
         <p class="pt-4">
-          Voordat ik begin met het bouwen van websites voor klanten, hou ik me
-          aan een vaste structuur. Zo plan ik altijd eerst een meeting met de
-          klant om te bespreken wat de klant wil en wat ze van mij kunnen
-          verwachten. Daarna ga ik aan de slag met het maken van een design.
-          Zodra dit design is goedgekeurd, kies ik het juiste framework dat
-          aansluit bij de behoeften van de klant. Meestal gebruik ik het
-          framework NUXT. Dit doe ik omdat ik hiermee een betere SEO-score kan
-          halen voor de websites die ik bouw.
+          Als de klant iets nodig heeft waarin een ander framework beter is, ga
+          ik dat onderzoeken om ervoor te zorgen dat ik de klant kan helpen met
+          wat ze nodig hebben. Dit doe ik zodat ik de kennis die ik hiervan
+          opdoe, kan gebruiken voor eventuele volgende projecten. Zo heb ik een
+          project gemaakt voor een klant waarbij ik gebruik heb gemaakt van
+          React. Dit was beter omdat sommige functionaliteiten alleen met dit
+          framework werkten. Ik zorg er dan ook altijd voor dat ik de frameworks
+          die ik gebruik goed onderzoek, zodat ik deze toekomst kan blijven
+          gebruiken. Op deze manier vergroot ik mijn kennis en kan ik meer
+          klanten helpen.
         </p>
         <p class="pt-4">
           Om mijn code herbruikbaar en begrijpelijk te maken, volg ik het advies
@@ -60,7 +66,10 @@ import OpenModal from "./components/openModal.vue";
           doe ik zodat ik de code zelf duidelijk moet maken. Als ik bijvoorbeeld
           een functie schrijf die gebruikers aan een database moet toevoegen,
           noem ik deze functie simpel addUsers. Deze functie doet dan ook alleen
-          dat, zodat iedereen meteen begrijpt wat de functie doet.
+          dat, zodat iedereen meteen begrijpt wat de functie doet. Dit voeg ik
+          nu toe bij alles wat ik doe. Ik wil op deze manier mijn eigen
+          structuur blijven verbeteren zodat het voor mij en mijn partner
+          makkelijker werken is.
         </p>
         <div class="flex lg:flex-row flex-col">
           <div class="lg:w-6/12 p-4">
@@ -69,7 +78,7 @@ import OpenModal from "./components/openModal.vue";
               src="/NUXTcode.png"
               alt="Floating Image"
             />
-            <p class="italic text-sm">Figure 1: Code van het framework Nuxt</p>
+            <p class="italic text-sm">Figuur 1: Code van het framework Nuxt</p>
           </div>
           <div class="lg:w-6/12 p-4">
             <img
@@ -78,7 +87,7 @@ import OpenModal from "./components/openModal.vue";
               alt="Floating Image"
             />
             <p class="italic text-sm">
-              Figure 2: Functie met de juiste benaming
+              Figuur 2: Functie met de juiste benaming
             </p>
           </div>
         </div>
@@ -86,13 +95,18 @@ import OpenModal from "./components/openModal.vue";
           Doordat ik nu veel werk met het Nuxt-framework, krijg ik steeds meer
           inzicht in hoe ik dit optimaal kan gebruiken. Mijn websites worden
           niet alleen sneller, maar ook beter vindbaar in zoekmachines dankzij
-          verbeterde SEO.
+          verbeterde SEO. Ik gebruik bijvoorbeeld specifieke Nuxt-modules, zoals
+          nuxt image, om afbeeldingen beter te laden en automatisch responsive
+          te maken.
         </p>
         <p class="pt-4">
           Om de snelheid van de websites die ik bouw verder te verhogen, ben ik
           ook bezig met het optimaliseren van andere onderdelen. Zo heb ik
           bijvoorbeeld alle foto’s omgezet naar het .webp-formaat in plaats van
-          PNG of JPG, zodat de laadtijd van de website veel sneller wordt.
+          PNG of JPG, zodat de laadtijd van de website veel sneller wordt. Ook
+          gebruik ik de tool google lighthouse om te kijken hoe hoog de websites
+          scoren. En wanneer het nodig is voeg ik verbeteringen toe om een
+          betere SEO te halen.
         </p>
         <p class="pt-4">
           Omdat mijn partner en ik samen een bepaalde structuur aan het opbouwen
@@ -108,9 +122,12 @@ import OpenModal from "./components/openModal.vue";
         verder uitbreiden. De technieken die ik nu gebruik wil ik blijven
         gebruiken, maar ik wil er voor zorgen dat ik nog efficiënter te werk kan
         gaan. Ook wil ik mijn kennis verder vergroten door andere frameworks te
-        onderzoeken en te vergelijken met wat ik nu gebruik. Het doel is om voor
-        elke klant de beste oplossing te vinden die volledig aansluit bij de
-        specifieke behoeften van hun project.
+        onderzoeken en te vergelijken met wat ik nu gebruik. Zo wil ik meer
+        leren over react en andere frameworks, omdat deze andere voordelen
+        hebben die ik kan gebruiken in toekomstige projecten. Het doel is om
+        voor elke klant de beste oplossing te vinden die volledig aansluit bij
+        de behoeften van hun project. In de toekomst wil ik ook meer focus
+        leggen op de eindgebruikers van websites.
       </p>
       <h3 class="text-3xl mb-2 mt-4 font-bold text-white">
         - Implementeren, testen en opleveren
@@ -123,7 +140,9 @@ import OpenModal from "./components/openModal.vue";
         van, zodat de klant er al doorheen kan navigeren alsof het een echte
         website is. Dit helpt ons snel te ontdekken of de call-to-actions op
         logische plekken staan. Zodra de feedback van de klant is verwerkt, gaan
-        we verder met het ontwikkelen van de website.
+        we verder met het ontwikkelen van de website. Bij elke iteratie van het
+        ontwerp test ik samen met de klant of de flow en functionaliteiten
+        voldoen aan hun verwachtingen.
       </p>
       <img
         class="mt-4 shadow-white border-b-[10px] border-r-[12px] rounded-xl border-gray-800 transition-all duration-300 hover:border-b-0 hover:border-r-0"
@@ -131,30 +150,28 @@ import OpenModal from "./components/openModal.vue";
         alt="Floating Image"
       />
       <p class="italic text-sm">
-        Figure 3: Figma clickable wireframe voor testing
+        Figuur 3: Figma clickable wireframe voor testing
       </p>
       <p class="mt-4">
         Tijdens het ontwikkelen van de website plan ik altijd een aantal
         meetings in om de voortgang van de website te laten zien. Op deze manier
         blijft de klant op de hoogte van de status, en kunnen we indien nodig
-        nog zaken bespreken of aanpassen.
+        nog zaken bespreken of aanpassen. Elke meeting kijk ik ook om samen met
+        de klant te bekijken welke punten belangrijk zijn voor hun, zodat ik op
+        de belangrijkste punten kan focusen.
       </p>
       <p class="mt-4">
-        Zodra er een website van een klant online gezet moet worden,word eerst
-        alles gechekt. Eerst doe ik dat samen met mijn partner. We gaan dan door
-        de applicatie heen alsof we het zien als de klant. Zodra we alles hebben
-        aangepast wat nog nodig is maak ik gebruik van Vercel om de website op
-        een Test link te zetten. Dit doe ik zodat de klant er eerst zelf door
-        heen kan kijken zonder dat de website vindbaar is in zoekmachines.
-      </p>
-      <p class="mt-4">
-        Voordat een website van een klant online wordt gezet, wordt alles goed
-        gecontroleerd. Dit doe ik eerst samen met mijn partner, waarbij we de
-        applicatie doorlopen alsof we de klant zijn. Na deze controle passen we
-        eventuele punten aan die nog verbeterd moeten worden. Vervolgens gebruik
-        ik Vercel om de website op een testlink te publiceren. Dit geeft de
-        klant de mogelijkheid om de website zelf te bekijken en feedback te
-        geven, zonder dat deze al vindbaar is in zoekmachines.
+        Zodra er een website van een klant online gezet moet worden, wordt eerst
+        alles gecontroleerd. Dit doe ik samen met mijn partner. We gaan dan door
+        de applicatie heen alsof we het zien als de klant. Na deze controle
+        passen we eventuele punten aan die nog verbeterd moeten worden.
+        Vervolgens gebruik ik Vercel om de website op een testlink te
+        publiceren. Dit geeft de klant de mogelijkheid om de website zelf te
+        bekijken en feedback te geven, zonder dat deze al vindbaar is in
+        zoekmachines. Om er zeker van te zijn dat alles is zoals de klant het
+        wil, test ik de website door te doen alsof ik een eindgebruiker ben. Zo
+        weet ik zeker dat alles goed werkt en of er nog ergens aan gewerkt moet
+        worden.
       </p>
       <img
         class="mt-4 shadow-white border-b-[10px] border-r-[12px] rounded-xl border-gray-800 transition-all duration-300 hover:border-b-0 hover:border-r-0"
@@ -177,9 +194,9 @@ import OpenModal from "./components/openModal.vue";
       <h4 class="text-2xl mt-4">- Vooruitzicht</h4>
       <p class="mt-4">
         Als ik terugkijk op hoe ik te werk ga met mijn klanten, ben ik daar erg
-        tevreden over. Ik krijg vaak positieve feedback van klanten. Ik wil deze
+        tevreden over. Ik krijg vaak positieve feedback van klanten, Ik wil deze
         werkwijze in de toekomst blijven toepassen. Het is voor mij erg
-        belangrijk om duidelijk en te communiceren met klanten, omdat dit ervoor
+        belangrijk om duidelijk te communiceren met klanten, omdat dit ervoor
         zorgt dat iedereen tevreden is. Ook zorgt deze tevredenheid van klanten
         voor reclame voor ons bedrijf via mond-op-mondreclame.
       </p>
@@ -194,3 +211,4 @@ import OpenModal from "./components/openModal.vue";
     </div>
   </div>
 </template>
+  
