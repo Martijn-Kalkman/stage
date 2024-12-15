@@ -130,8 +130,26 @@ import OpenModal from "./components/openModal.vue";
         effectief samen te werken. Hierdoor kunnen we klanten goed tevreden
         houden en op tijd klaar zijn met projecten.
       </p>
-      <!-- Image -->
+      <img
+        class="mt-4 shadow-white border-b-[10px] border-r-[12px] rounded-xl border-gray-800 transition-all duration-300 hover:border-b-0 hover:border-r-0"
+        src="/figuur7goed.png"
+        alt="Floating Image"
+      />
       <h4 class="text-2xl mb-4">- Vooruitzicht</h4>
+      <p>
+        In de toekomst wil ik mijn communicatie en projectmatig werken verder
+        verbeteren. Ik wil leren hoe ik nog beter kan plannen en welke tools
+        hiervoor het beste zijn, vooral wanneer meerdere projecten
+        tegelijkertijd lopen. Ook wil ik mijn communicatie skills verbeteren,
+        zodat ik niet alleen beter met mijn partner en klanten kan samenwerken,
+        maar later ook met grotere teams.
+      </p>
+      <p class="pt-4">
+        Als mijn bedrijf in de toekomst verder groeit, is het voor mij erg
+        belangrijk dat deze stappen goed worden uitgevoerd. Op deze manier weten
+        mijn partner en ik wat we van elkaar kunnen verwachten, en hebben we
+        altijd een basisstructuur om op terug te vallen.
+      </p>
     </div>
   </div>
 </template>

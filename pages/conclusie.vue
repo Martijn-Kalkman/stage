@@ -8,6 +8,26 @@ import Navbar from "./components/navbar.vue";
     <div class="mx-auto 2xl:w-6/12 p-4 mt-12">
       <div class="">
         <h1 class="text-6xl font-bold text-white text-center">Conclusie</h1>
+        <p class="mt-4">
+          De stage bij mijn eigen bedrijf heeft me veel geleerd, zowel op
+          technisch als persoonlijk vlak. Tijdens deze periode heb ik mijn
+          skills in programmeren verder ontwikkeld, ook heb ik geleerd hoe ik
+          beter kan omgaan met klanten en hoe ik de websites toegankelijk maak
+          voor iedereen. Ik ben bezig geweest met het maken van wireframes tot
+          het bouwen van websites.
+        </p>
+        <p class="mt-4">
+          Ook heb ik tijdens deze stage veel ervaring opgedaan in het
+          ondernemen, door te luisteren naar mijn klanten, en door veel
+          onderzoek te doen. Deze stage heeft er voor gezorgd dat ik verder kijk
+          dan het probleem. Ik wil mijn websites goed afstellen op klanten en er
+          voor zorgen dat de websites voor iedereen toegankelijk zijn.
+        </p>
+        <p class="mt-4">
+          Deze stage heeft me geholpen te groeien als developer en ondernemer.
+          Ik weet nu hoe ik professioneel oplossingen kan toepassen en hoe ik
+          mijn projecten voor iedereen toegankelijk maak.
+        </p>
       </div>
     </div>
   </div>

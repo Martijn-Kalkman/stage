@@ -174,6 +174,7 @@ import OpenModal from "./components/openModal.vue";
           deze manier kan ik mijn designs nog beter aanpassen op de gebruikers
           van de website.
         </p>
+
       </div>
     </div>
   </div>
