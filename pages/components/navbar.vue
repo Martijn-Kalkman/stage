@@ -76,7 +76,49 @@
                 />
               </svg>
 
+              <span class="ms-3">Inleiding</span>
+            </NuxtLink>
+          </li>
+          <li>
+            <NuxtLink
+              to="/intro"
+              class="flex items-center p-2 text-white rounded-lg hover:bg-gray-700 group"
+            >
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 96 96"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M68 32C32 40 23.6 64.68 15.28 85.36L22.84 88L26.64 78.8C28.56 79.48 30.56 80 32 80C76 80 88 12 88 12C84 20 56 21 36 25C16 29 8 46 8 54C8 62 15 69 15 69C28 32 68 32 68 32Z"
+                  fill="#9CA3AF"
+                />
+              </svg>
+
               <span class="ms-3">Intro</span>
+            </NuxtLink>
+          </li>
+          <li>
+            <NuxtLink
+              to="/projects"
+              class="flex items-center p-2 text-white rounded-lg hover:bg-gray-700 group"
+            >
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 96 96"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M68 32C32 40 23.6 64.68 15.28 85.36L22.84 88L26.64 78.8C28.56 79.48 30.56 80 32 80C76 80 88 12 88 12C84 20 56 21 36 25C16 29 8 46 8 54C8 62 15 69 15 69C28 32 68 32 68 32Z"
+                  fill="#9CA3AF"
+                />
+              </svg>
+
+              <span class="ms-3">Projecten</span>
             </NuxtLink>
           </li>
           <li>
