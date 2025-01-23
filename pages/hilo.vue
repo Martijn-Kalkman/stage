@@ -24,14 +24,32 @@ import Navbar from "./components/navbar.vue";
         </p>
         <img class="mt-4 rounded-xl" src="/githubpages.png" />
         <p class="mt-4">
-          Nadat ik dit heb gemaakt ben ik begonnen met het maken van een een
-          design via Figma waar de klant door heen kon klikken alsof het de echt
-          website was.
+          Nadat ik het bord in GitHub Projects had opgezet, ben ik gestart met
+          het maken van een ontwerp in Figma. In deze tool heb ik een
+          interactief design uitgewerkt dat de klant kon bekijken en gebruiken
+          alsof het de echte website was. Dit maakte het mogelijk om feedback te
+          verzamelen en het ontwerp verder te verbeteren voordat ik begon met de
+          ontwikkeling van de website.
         </p>
-        <p class="mt-4">Link clickable wireframe desktop: <a class="text-blue-500" href="https://www.figma.com/proto/WPvTE3LngVNWLqtoJSdwbm/Untitled?node-id=0-127&p=f&t=Mm8KjO4BUrZ2nYHj-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=0%3A127">Wireframe desktop</a> </p>
-        <p class="">Link clickable wireframe mobile: <a class="text-blue-500" href="https://www.figma.com/proto/WPvTE3LngVNWLqtoJSdwbm/Untitled?node-id=0-3&t=JxA7m61fOZYzpkmv-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=0%3A3">Wireframe mobile</a> </p>
+        <p class="mt-4">
+          Link clickable wireframe desktop:
+          <a
+            class="text-blue-500"
+            href="https://www.figma.com/proto/WPvTE3LngVNWLqtoJSdwbm/Untitled?node-id=0-127&p=f&t=Mm8KjO4BUrZ2nYHj-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=0%3A127"
+            >Wireframe desktop</a
+          >
+        </p>
+        <p class="">
+          Link clickable wireframe mobile:
+          <a
+            class="text-blue-500"
+            href="https://www.figma.com/proto/WPvTE3LngVNWLqtoJSdwbm/Untitled?node-id=0-3&t=JxA7m61fOZYzpkmv-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=0%3A3"
+            >Wireframe mobile</a
+          >
+        </p>
 
 
+        <p class="font-bold text-2xl mt-4">HI-LO website video:</p>
         <iframe
           class="mx-auto mt-4 rounded-xl w-full h-96"
           src="https://www.youtube.com/embed/tgbNymZ7vqY"
