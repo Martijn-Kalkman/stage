@@ -8,11 +8,28 @@ import Navbar from "./components/navbar.vue";
     <div class="mx-auto 2xl:w-6/12 p-4 mt-12">
       <div class="">
         <h1 class="text-6xl font-bold text-white text-center">Projecten</h1>
-        <div class="flex flex-row">
-          <NuxtLink class="bg-red-900 w-6/12 m-4 rounded-xl" to="/hilo">
-            <img class="h-72 object-cover rounded-xl" src="/hilo.png" />
+        <div class="flex lg:flex-row flex-col">
+          <NuxtLink class="lg:w-6/12 m-4 rounded-xl" to="/hilo">
+            <img class="h-80 object-cover rounded-xl" src="/hilo.png" />
+            HI-LO
           </NuxtLink>
-          <div class="bg-red-900 w-6/12 m-4 rounded-xl"></div>
+
+          <NuxtLink class="lg:w-6/12 m-4 rounded-xl" to="/leafylines">
+            <img
+              class="h-80 mx-auto object-cover rounded-xl"
+              src="/leafylinesSite.png"
+            />
+            LeafyLines
+          </NuxtLink>
+        </div>
+        <div class="flex lg:flex-row flex-col">
+          <NuxtLink class="lg:w-6/12 m-4 rounded-xl" to="/oosterwijkonderhoud">
+            <img
+              class="h-80 object-cover rounded-xl"
+              src="/oosterwijkonderhoud.png"
+            />
+            Oosterwijk Onderhoud
+          </NuxtLink>
         </div>
       </div>
     </div>
