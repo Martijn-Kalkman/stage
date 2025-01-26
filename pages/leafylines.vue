@@ -98,12 +98,6 @@ import Navbar from "./components/navbar.vue";
           blijft. We staan klaar om eventuele problemen snel aan te pakken en
           zorgen ervoor dat je website soepel blijft draaien.
         </p>
-
-        <iframe
-          class="mx-auto mt-4 rounded-xl w-full h-96"
-          src="https://www.youtube.com/embed/tgbNymZ7vqY"
-        >
-        </iframe>
       </div>
     </div>
   </div>

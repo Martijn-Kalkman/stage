@@ -11,46 +11,45 @@ import Navbar from "./components/navbar.vue";
           Uitwisselingsbezoek bij DIGIWEDO
         </h1>
         <img
-          class="mt-4 shadow-white border-b-[10px] border-r-[12px] rounded-xl border-gray-800 transition-all duration-300 hover:border-b-0 hover:border-r-0"
+          class="mt-4 shadow-white rounded-xl "
           src="/digiwedo.jpg"
           alt="Floating Image"
         />
         <p class="mt-4">
-          Tijdens het uitwisselingsbezoek heb ik een bezoek gebracht aan
-          DIGIWEDO, een bedrijf met een design- en developmentteam dat dagelijks
-          werkt aan websites. Het is een middelgroot bedrijf met ongeveer 10-15
-          medewerkers. Binnen DIGIWEDO wordt voornamelijk gebruikgemaakt van
-          WordPress, een CMS-systeem dat het makkelijker maakt om websites te
-          bouwen en klanten in staat stelt deze zelf te beheren. Voor meer
-          vrijheid gebruiken ze binnen WordPress de Oxygen Builder, waarmee je
-          alsnog zelf code kunt schrijven en meer mogelijkheden hebt binnen de
-          websites.
+          Tijdens het uitwisselingsbezoek heb ik DIGIWEDO bezocht, een bedrijf
+          met een design- en developmentteam dat dagelijks werkt aan websites.
+          Het is een middelgroot bedrijf met ongeveer 10-15 medewerkers. Binnen
+          DIGIWEDO wordt voornamelijk gebruikgemaakt van WordPress, een
+          CMS-systeem dat het makkelijker maakt om websites te bouwen en klanten
+          in staat stelt deze zelf te beheren. Voor meer vrijheid gebruiken ze
+          binnen WordPress de Oxygen Builder, waarmee je zelf code kunt
+          schrijven en meer mogelijkheden hebt voor het aanpassen van websites.
         </p>
         <p class="mt-4">
-          Als ik DIGIWEDO vergelijk met mijn bedrijf, merk ik dat ik minder ben
-          van WordPress. Ik heb er al vaker mee heb gewerkt, maar ik vind de
-          beperkte vrijheid om volledig custom websites te maken een groot
-          nadeel. Wat ik wel beter vind van DIGIWEDO is dat er een duidelijke
-          scheiding is tussen de design- en developmentafdelingen. Hierdoor
-          kunnen developers zich beter focussen op de technische kant, terwijl
-          designers zich kunnen focusen op het maken van betere ontwerpen.
+          Als ik DIGIWEDO vergelijk met mijn bedrijf, merk ik dat ik niet met
+          WordPress wil werken. Ik heb er al vaker mee gewerkt, maar ik vind de
+          beperkte vrijheid om volledig op maat gemaakte websites te creëren een
+          groot nadeel. Wat ik wel beter vind bij DIGIWEDO, is de duidelijke
+          scheiding tussen de design- en developmentafdelingen. Hierdoor kunnen
+          developers zich beter concentreren op de technische kant, terwijl
+          designers zich kunnen focussen op het creëren van betere ontwerpen.
         </p>
         <p class="mt-4">
-          Ook krijgt DIGIWEDO enorm veel feedback. Soms ontvangen ze meer dan
-          tien feedbackrondes per project, wat laat zien hoe goed ze luisteren
-          naar de wensen van hun klanten.
+          Ook ontvangt DIGIWEDO enorm veel feedback. Soms wel meer dan tien
+          feedbackrondes per project, wat aantoont hoe goed ze luisteren naar de
+          wensen van hun klanten.
         </p>
         <div class="flex lg:flex-row flex-col">
           <div class="lg:w-6/12 p-4">
             <img
-              class="mt-4 shadow-white border-b-[10px] border-r-[12px] rounded-xl border-gray-800 transition-all duration-300 hover:border-b-0 hover:border-r-0"
+              class="mt-4 shadow-white rounded-xl "
               src="/DIGIWEDOselfie.jpg"
               alt="Floating Image"
             />
           </div>
           <div class="lg:w-6/12 p-4">
             <img
-              class="mt-4 shadow-white border-b-[10px] border-r-[12px] rounded-xl border-gray-800 transition-all duration-300 hover:border-b-0 hover:border-r-0"
+              class="mt-4 shadow-white rounded-xl "
               src="/DIGIWEDOgroup.jpg"
               alt="Floating Image"
             />

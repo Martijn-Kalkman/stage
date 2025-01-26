@@ -99,7 +99,7 @@ import OpenModal from "./components/openModal.vue";
           te maken.
         </p>
         <p class="pt-4">
-          Hier is de gecontroleerde tekst: Om de snelheid van de websites die ik
+          Om de snelheid van de websites die ik
           bouw verder te verhogen, ben ik ook bezig met het optimaliseren van
           andere onderdelen. Zo heb ik bijvoorbeeld alle foto’s omgezet naar het
           .webp-formaat in plaats van PNG of JPG, zodat de laadtijd van de

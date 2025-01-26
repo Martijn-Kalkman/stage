@@ -32,11 +32,18 @@ import Navbar from "./components/navbar.vue";
             >Wireframe desktop</a
           >
         </p>
-        <iframe
-          class="mx-auto mt-4 rounded-xl w-full h-96"
-          src="https://www.youtube.com/embed/tgbNymZ7vqY"
-        >
-        </iframe>
+
+        <p class="mt-4">
+          De website is gemaakt om Oosterwijk Onderhoud goed in beeld te brengen
+          en het voor klanten makkelijk te maken om contact op te nemen en meer
+          te weten te komen over de diensten. Het doel is om een overzichtelijke
+          en gebruiksvriendelijke ervaring te bieden, zodat bezoekers snel de
+          informatie kunnen vinden die ze nodig hebben en gemakkelijk een
+          offerte kunnen aanvragen.
+        </p>
+        <p>
+        
+        </p>
       </div>
     </div>
   </div>
