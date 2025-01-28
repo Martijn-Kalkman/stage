@@ -8,7 +8,11 @@ import Navbar from "./components/navbar.vue";
     <div class="mx-auto 2xl:w-6/12 p-4 mt-12">
       <div class="">
         <h1 class="text-6xl font-bold text-white text-center">HI-LO</h1>
-        <p class="text-center mt-2"><a class="text-blue-500" href="https://officialhilo.com/">https://officialhilo.com/</a></p>
+        <p class="text-center mt-2">
+          <a class="text-blue-500" href="https://officialhilo.com/"
+            >https://officialhilo.com/</a
+          >
+        </p>
 
         <p class="mt-4 mx-auto">
           HI-LO is een DJ en producer die bekend is om zijn eigen stijl en
@@ -49,13 +53,11 @@ import Navbar from "./components/navbar.vue";
           >
         </p>
 
-
         <p class="font-bold text-2xl mt-4">HI-LO website video:</p>
-        <iframe
-          class="mx-auto mt-4 rounded-xl w-full h-96"
-          src="https://www.youtube.com/embed/tgbNymZ7vqY"
-        >
-        </iframe>
+        <video class="w-full rounded-xl" controls>
+          <source src="/HI-LO.mp4" type="video/mp4" />
+          Your browser does not support HTML video.
+        </video>
       </div>
     </div>
   </div>
