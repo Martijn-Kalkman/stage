@@ -135,7 +135,7 @@ import OpenModal from "./components/openModal.vue";
         </p>
         <h4 class="text-2xl mt-2">- Terugblik</h4>
         <p class="mt-4">
-          Hier is de verbeterde versie van je tekst: Voordat ik begin met het
+          Voordat ik begin met het
           maken van een design, moet ik eerst altijd nadenken over de
           functionaliteit die nodig is. Dit doe ik door middel van user stories.
           Hier zijn enkele user stories voor de website van HI-LO (DJ):
